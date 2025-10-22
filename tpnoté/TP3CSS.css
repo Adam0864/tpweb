@@ -1,0 +1,63 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.left {
+    width: 10%;
+    background-color: navajowhite;
+    padding-top: 20px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.right {
+    width: 90%;
+    background-color: white;
+    padding-top: 20px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+header{
+    background-color: red;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    padding: 10px;
+    background-color: white;
+    color: black;
+    text-align: left;
+    border: 1px solid black;
+    font-weight: bold;
+}
+
+td {
+    padding: 10px;
+    border: 1px solid black;
+}
+
+tr:hover {
+    background-color: white;
+}
+
